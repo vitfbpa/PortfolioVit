@@ -24,4 +24,4 @@ Este repositório contém o código-fonte do meu site pessoal de PortFolio, dese
 
 ---
 
-Desenvolvido com 💻 por Vicenzo de Souza
+Desenvolvido 💻 por **Vicenzo de Souza**
