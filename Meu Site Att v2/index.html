@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vicenzo de Souza</title>
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Font Awesome -->
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!-- CSS -->
+<link href="style.css" rel="stylesheet"/>
+<!-- Scroll suave -->
+<style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+<!-- Fundo Partículas -->
+<div id="tsparticles"></div>
+<header>
+<div class="logo"><span>Vicenzo de</span> <strong>Souza</strong></div>
+<nav>
+<ul>
+<li><a class="active" href="#home">Home</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#commits">Commits</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main class="hero-section" id="home">
+<div class="hero-text">
+<h1>Hi, I'm <span>Vicenzo de Souza</span></h1>
+<h2>I'm a <span class="type-effect"></span></h2>
+<p>I am studying Computer Science at the Universidade Franciscana. I am currently in the 5th semester. I have several dreams and personal projects that I want to achieve with programming!</p>
+<div class="socials">
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-github"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+</div>
+<div class="buttons">
+<div class="social-icons">
+  <a href="https://github.com/vitfbpa" target="_blank" title="GitHub" aria-label="GitHub">
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="#00FFFF" viewBox="0 0 24 24">
+  <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.92.58.11.79-.25.79-.56
+  0-.28-.01-1.03-.02-2.02-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7
+  -1.06-.73.08-.71.08-.71 1.18.08 1.8 1.21 1.8 1.21 1.04 1.79 2.73 1.27 3.4.97
+  .11-.76.41-1.27.75-1.56-2.55-.29-5.23-1.27-5.23-5.65 0-1.25.45-2.27 1.2-3.07
+  -.12-.29-.52-1.46.12-3.05 0 0 .98-.31 3.2 1.17a11.1 11.1 0 0 1 5.82 0c2.22-1.48
+  3.2-1.17 3.2-1.17.64 1.59.24 2.76.12 3.05.75.8 1.2 1.82 1.2 3.07
+  0 4.4-2.69 5.35-5.25 5.63.42.36.8 1.07.8 2.16
+  0 1.13-.01 2.04-.01 2.32 0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5z"/>
+</svg>
+</a>
+  <a href="https://www.instagram.com/vicenzodsouza_/" target="_blank" title="Instagram" aria-label="Instagram">
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="#00FFFF" viewBox="0 0 448 512">
+  <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 
+  114.9S160.5 370.9 224.1 370.9 339 319.6 339 
+  255.9 287.7 141 224.1 141zm0 186.6c-39.6 0-71.7-32.1-71.7-71.7 
+  0-39.6 32.1-71.7 71.7-71.7 39.6 0 71.7 32.1 71.7 
+  71.7 0 39.6-32.1 71.7-71.7 71.7zm146.4-194.3c0 
+  14.9-12.1 27-27 27s-27-12.1-27-27 12.1-27 
+  27-27 27 12.1 27 27zm76.1 27.2c-.1-54.4-44.3-98.5-98.7-98.6H100.3C45.8 
+  62.5 1.7 106.7 1.6 161.1v190.7c.1 54.4 44.3 98.5 
+  98.7 98.6h247.5c54.4-.1 98.5-44.3 
+  98.6-98.7V160.5zM398.8 388c0 30.2-24.5 
+  54.7-54.7 54.7H104c-30.2 0-54.7-24.5-54.7-54.7V160.5c0-30.2 
+  24.5-54.7 54.7-54.7h240.1c30.2 0 54.7 24.5 54.7 
+  54.7V388z"/>
+</svg>
+</a>
+  <a href="https://www.linkedin.com/in/vicenzo-de-souza-milanesi-189062267/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="#00FFFF" viewBox="0 0 448 512">
+  <path d="M100.28 448H7.4V148.9h92.88zM53.84 
+  108.1c-29.55 0-53.84-24.3-53.84-54.4C0 
+  24.3 24.29 0 53.84 0S107.7 24.3 107.7 
+  53.7c0 30.1-24.29 54.4-53.86 
+  54.4zM447.9 448h-92.4V302.4c0-34.7-12.5-58.4-43.6-58.4-23.8 
+  0-38.1 16-44.4 31.4-2.3 5.6-2.9 
+  13.4-2.9 21.2V448h-92.4s1.2-262.7 
+  0-289.1h92.4v40.9h-.7c12.3-19 
+  34.4-46.2 83.7-46.2 61 0 106.8 
+  39.8 106.8 125.2V448z"/>
+</svg>
+</a>
+  <a href="https://discord.gg/Pmgj32Xepr" target="_blank" title="Discord" aria-label="Discord">
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="#00FFFF" viewBox="0 0 24 24">
+  <path d="M20.317 4.369a19.791 19.791 0 0 0-4.885-1.515.07.07 0 0 0-.074.035 13.847 13.847 0 0 0-.608 1.248 18.956 18.956 0 0 0-5.682 0 12.39 12.39 0 0 0-.617-1.248.077.077 0 0 0-.073-.035c-1.682.3-3.29.84-4.885 1.515a.064.064 0 0 0-.03.027C.533 9.045-.32 13.579.099 18.057a.084.084 0 0 0 .031.056 20.114 20.114 0 0 0 6.057 3.053.07.07 0 0 0 .078-.027c.466-.64.875-1.312 1.226-2.014a.076.076 0 0 0-.041-.105 13.19 13.19 0 0 1-1.872-.9.07.07 0 0 1-.007-.118c.126-.094.252-.19.373-.287a.074.074 0 0 1 .077-.01c3.927 1.792 8.18 1.792 12.061 0a.074.074 0 0 1 .078.009c.121.098.247.194.374.288a.07.07 0 0 1-.006.117 12.474 12.474 0 0 1-1.873.9.076.076 0 0 0-.04.106c.36.7.768 1.372 1.226 2.013a.07.07 0 0 0 .078.028 20.104 20.104 0 0 0 6.056-3.053.078.078 0 0 0 .031-.055c.5-5.177-.838-9.667-3.548-13.661a.061.061 0 0 0-.03-.028ZM8.02 15.331c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.418 2.157-2.418 1.21 0 2.175 1.093 2.157 2.418 0 1.334-.955 2.419-2.157 2.419Zm7.974 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.418 2.157-2.418 1.21 0 2.175 1.093 2.157 2.418 0 1.334-.947 2.419-2.157 2.419Z"/>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hero-image">
+<img alt="Profile Image" src="https://cdn.discordapp.com/attachments/800795108780802048/1362212082791092264/IMG_5135.jpg?ex=680b759d&amp;is=680a241d&amp;hm=6dedac17c14216d0ad42285de5946a78f137dada2163148ef5051cb946ccf672&amp;"/>
+</div>
+</main>
+<section class="section" id="commits">
+<div class="container">
+<h2 class="section-title">Featured Repositories</h2>
+<div class="card-container">
+<a class="repo-card" href="https://github.com/vitfbpa/IA" target="_blank">
+<h3>AI</h3>
+<p>Discipline of AI algorithms and methods and machine learning.</p>
+</a>
+<a class="repo-card" href="https://github.com/vitfbpa/vitfbpa" target="_blank">
+<h3>Personal Portfolio</h3>
+<p>Personal website developed with HTML, CSS and JavaScript.</p>
+</a>
+<a class="repo-card" href="https://github.com/vitfbpa/Projeto-de-Software" target="_blank">
+<h3>Software Project</h3>
+<p>Java systems developed in the Software Design discipline, some using MySQL databases and Sockets.</p>
+</a>
+</div>
+</div>
+</section>
+<section class="section" id="contact">
+<div class="container">
+<h2 class="section-title">Contact</h2>
+
+<form class="contact-form" id="contactForm" novalidate>
+  <input type="text" name="nome" placeholder="Your name" required />
+  <span class="error-msg"></span>
+
+  <input type="email" name="email" placeholder="Your e-mail" required />
+  <span class="error-msg"></span>
+
+  <textarea name="mensagem" placeholder="Your message" required></textarea>
+  <span class="error-msg"></span>
+
+  <button type="submit">Send</button>
+</form>
+
+</div>
+</section><section class="section" id="services">
+<div class="container">
+<h2 class="section-title">Services</h2>
+<div class="card-container">
+<div class="card">
+<h3>Specialization & Focus</h3>
+<p>I have specialization and focus on MySQL Database, Java, NodeJS and Sockets.</p>
+</div>
+<div class="card">
+<h3>Full Stack Development</h3>
+<p>I develop complete solutions with a focus on performance, combining modern FrontEnd and robust BackEnd for impactful digital experiences.</p>
+</div>
+</div>
+</div>
+</section><section class="section" id="projects">
+<div class="container">
+<h2 class="section-title">Main Projects</h2>
+<div class="card-container">
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>My personal portfolio developed with HTML, CSS and JavaScript.</p>
+</div>
+<div class="card">
+<h3>Restaurant System</h3>
+<p>Restaurant management system with control of orders, inventory and integration via sockets.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Seções fictícias para navegação -->
+<!-- Modal de Contato -->
+<div class="modal" id="contactModal">
+<div class="modal-content">
+<span class="close">×</span>
+<h2>Contact Me</h2>
+<p>Email: vicenzo.milanesi@ufn.edu.br</p>
+<p>GitHub: https://github.com/vitfbpa</p>
+<p>Instagram: @vicenzodsouza_</p>
+</div>
+</div>
+<!-- JS Particles -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+<script>
+    tsParticles.load("tsparticles", {
+      background: { color: "#000" },
+      fpsLimit: 60,
+      interactivity: {
+        events: { onHover: { enable: true, mode: "connect" }, resize: true },
+        modes: { connect: { distance: 120, radius: 100, links: { opacity: 0.5 } } }
+      },
+      particles: {
+        color: { value: "#ffffff" },
+        links: { enable: true, distance: 150, color: "#ffffff", opacity: 0.2, width: 1 },
+        move: { enable: true, speed: 1, outModes: "bounce" },
+        number: { value: 80, density: { enable: true, area: 800 } },
+        opacity: { value: 0.5 },
+        shape: { type: "circle" },
+        size: { value: { min: 1, max: 4 } }
+      },
+      detectRetina: true
+    });
+  </script>
+<!-- Typed.js para digitação -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".type-effect", {
+      strings: ["BackEnd and FrontEnd Developer.", "Computer Science Student."],
+      typeSpeed: 60,
+      backSpeed: 30,
+      loop: true
+    });
+  </script>
+<!-- JS Modal -->
+<script>
+    const modal = document.getElementById("contactModal");
+    const openBtn = document.getElementById("openModal");
+    const closeBtn = document.querySelector(".close");
+
+    openBtn.onclick = () => modal.style.display = "block";
+    closeBtn.onclick = () => modal.style.display = "none";
+    window.onclick = e => { if (e.target == modal) modal.style.display = "none"; };
+  </script>
+<!-- Estilo do Modal -->
+<style>
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0; top: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.85);
+    }
+
+    .modal-content {
+      margin: 100px auto;
+      background-color: #111;
+      border: 2px solid #00ffff;
+      color: white;
+      padding: 20px;
+      width: 60%;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #00ffffaa;
+    }
+
+    .close {
+      float: right;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #00ffff;
+    }
+
+    .close:hover {
+      text-shadow: 0 0 8px #00ffff;
+    }
+  </style>
+<!-- Projects Section -->
+<!-- Services Section -->
+<!-- Commits Section -->
+<!-- Contact Section -->
+<!-- Projects Section -->
+<section class="section" id="projects">
+<div class="container">
+<h2 class="section-title">Projects</h2>
+<div class="card-container">
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>My personal portfolio developed with HTML, CSS and JavaScript.</p>
+</div>
+<div class="card">
+<h3>Restaurant System</h3>
+<p>Restaurant management system with control of orders, inventory and integration via sockets.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="section" id="services">
+<div class="container">
+<h2 class="section-title">Services</h2>
+<div class="card-container">
+<div class="card">
+<h3>Specialization & Focus</h3>
+<p>I have specialization and focus on MySQL Database, Java, NodeJS and Sockets.</p>
+</div>
+<div class="card">
+<h3>BackEnd & FrontEnd Development</h3>
+<p>I develop complete solutions with a focus on performance, combining modern FrontEnd and robust BackEnd for impactful digital experiences.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Commits Section -->
+<section class="section" id="commits">
+<div class="container">
+<h2 class="section-title">Commits</h2>
+<ul class="commits-list">
+<li><strong>[main]</strong> - Página inicial redesenhada com Typed.js (2025-04-24)</li>
+<li><strong>[feature]</strong> - Adicionada seção de projetos ao portfólio (2025-04-20)</li>
+<li><strong>[fix]</strong> - Correção no layout responsivo para mobile (2025-04-18)</li>
+</ul>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="section" id="contact">
+<div class="container">
+<h2 class="section-title">Contact</h2>
+
+<form class="contact-form" id="contactForm" novalidate>
+  <input type="text" name="nome" placeholder="Seu nome" required />
+  <span class="error-msg"></span>
+
+  <input type="email" name="email" placeholder="Seu e-mail" required />
+  <span class="error-msg"></span>
+
+  <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+  <span class="error-msg"></span>
+
+  <button type="submit">Enviar</button>
+</form>
+
+</div>
+</section>
+
+<script>
+  const form = document.getElementById("contactForm");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const fields = form.querySelectorAll("input, textarea");
+    const messages = form.querySelectorAll(".error-msg");
+
+    let valid = true;
+
+    fields.forEach((field, index) => {
+      if (!field.value.trim()) {
+        messages[index].innerText = `Please fill in the field "${field.placeholder}"`;
+        messages[index].style.display = "block";
+        valid = false;
+      } else {
+        messages[index].innerText = "";
+        messages[index].style.display = "none";
+      }
+    });
+
+    if (valid) {
+      form.submit();
+    }
+  });
+</script>
+
+</body>
+</html>
