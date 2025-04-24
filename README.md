@@ -1,6 +1,6 @@
 # 🌐 Vicenzo de Souza - Personal Website
 
-Este repositório contém o código-fonte do site pessoal de **Vicenzo de Souza**, desenvolvido com HTML, CSS e JavaScript puro. O layout é moderno, dinâmico e responsivo, com partículas animadas ao fundo e navegação suave entre seções.
+Este repositório contém o código-fonte do meu site pessoal de PortFolio, desenvolvido com HTML, CSS e JavaScript puro. O layout é moderno, dinâmico e responsivo, com partículas animadas ao fundo e navegação suave entre seções.
 
 ## 📁 Estrutura do Projeto
 
