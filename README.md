@@ -26,7 +26,7 @@ Este repositório contém o código-fonte do meu site pessoal de PortFolio, dese
 
 ## 🌎 Acessar Site
 
-Para acessar o Site basta clicar neste endereço: **https://portfoliovit.netlify.app**
+- Para acessar o Site basta clicar neste endereço: **https://portfoliovit.netlify.app**
 
 ---
 
